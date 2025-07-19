@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(49, 167, 84);
+}
+
+h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.players-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.player-box {
+  font-family: "Press Start 2P", system-ui;
+  background: #140303;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#diceImageLeft {
+  margin-left: 20px;
+}
+
+#diceImageRight {
+  margin-left: 20px;
+}
+
+.roll-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.roll-button {
+  font-family: "Press Start 2P", system-ui;
+  background-color: #000;
+  color: #ebe6e6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.diceeTag {
+  margin-top: 20px;
+  text-align: center;
+}
