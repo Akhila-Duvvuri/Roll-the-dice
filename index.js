@@ -1,7 +1,9 @@
 const gameWinner = document.getElementById("gameWinner");
+
 //Get a reference to the img element
 const diceImageLeftElement = document.getElementById("diceImageLeft");
 const diceImageRightElement = document.getElementById("diceImageRight");
+
 //Get the roll button element
 const rollDiceButton = document.getElementById("rollButton");
 
